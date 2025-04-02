@@ -10,7 +10,7 @@ const GREEN_ENERGY = ['BIOMASS', 'NPSHYD', 'NUCLEAR', 'PS', 'WIND'];
 const FOSSIL_ENERGY = ['CCGT', 'COAL', 'OCGT', 'OIL'];
 const INTERCONNECTS = ['INTELEC', 'INTEW', 'INTFR', 'INTGRNL', 'INTIFA2', 'INTIRL', 'INTNED', 'INTNEM', 'INTNSL', 'INTVKL', 'OTHER'];
 
-const GridGreenessComponent: React.FC<{ energyData: Energy }> = ({ energyData }) => {
+const GridGreennessComponent: React.FC<{ energyData: Energy }> = ({ energyData }) => {
     // A threshold of 40% fossil fuel usage is considered "high"
     const FOSSIL_FUEL_USAGE_THRESHOLD = 40;
 
@@ -84,4 +84,4 @@ const GridGreenessComponent: React.FC<{ energyData: Energy }> = ({ energyData })
     );
 }
 
-export default GridGreenessComponent;
+export default GridGreennessComponent;

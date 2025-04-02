@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import GridGreenessComponent from "@components/GridGreeness";
+import GridGreenessComponent from "@components/GridGreenness";
 
 import { EnergyData } from "@mock-data/energy";
 import { Energy } from "@models/energy";
