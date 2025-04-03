@@ -23,7 +23,7 @@ export default function HomePage() {
 
 	return (
 		<main>
-			<div className="container max-w-2xl mx-auto my-16">
+			<div className="container max-w-2xl px-6 md:px-0 mx-auto my-16">
 				<h1 className="text-3xl font-bold text-center mb-8">Grid Greenness Monitor</h1>
 				{loading ? (
 					<div className="flex justify-center flex-col items-center space-y-3">
